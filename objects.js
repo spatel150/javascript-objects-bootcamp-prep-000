@@ -76,6 +76,7 @@ console.log(meals2);
 var playlist = {artistName: "Drake", artistSong: "In My Feelings"} 
 
 function updatePlaylist(playlist, artistName, artistSong) {
+<<<<<<< HEAD
   playlist[artistName] = artistSong
   return playlist
 }
@@ -83,6 +84,9 @@ function updatePlaylist(playlist, artistName, artistSong) {
 function removeFromPlaylist(playlist, artistName) {
   delete playlist[artistName];
   return playlist;
+=======
+  return Object.assign (playlist, "Phil Ochs": "Slowdive, My Bloody Valentine")
+>>>>>>> 6dffe94add35c25af491ee746d2e7189013534b9
 }
 
 
